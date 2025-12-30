@@ -22,6 +22,12 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">EAS Update Test</ThemedText>
+        <ThemedText>
+          This change triggers an EAS Update build on PR.
+        </ThemedText>
+      </ThemedView>
+      <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
         <ThemedText>
           Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
