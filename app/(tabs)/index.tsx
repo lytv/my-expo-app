@@ -22,9 +22,9 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">EAS Update Test</ThemedText>
+        <ThemedText type="subtitle">EAS Update Test - Automation</ThemedText>
         <ThemedText>
-          This change triggers an EAS Update build on PR.
+          This change triggers an EAS Update build on PR (Verify Automation).
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
